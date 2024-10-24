@@ -244,7 +244,7 @@
 // 1-masala
 
 // function onylAgeandNAme(massive) {
-//     forEach(function (value) {
+//     massive.forEach(function (value) {
 //         console.log(value.name);
 //         console.log(value.age);
 
@@ -254,7 +254,7 @@
 // 2-masala
 
 // function increseToTwentyPercent(massive) {
-//     forEach(function(value){
+//     massive.forEach(function(value){
 //         console.log(value.price / 20 * 100);
 //     })
 // }
@@ -271,7 +271,7 @@
 // 4-masala
 
 // function writingTheNamesOFAuthorsInTheSameWay(arr) {
-//     forEach(function(value){
+//     arr.forEach(function(value){
 //     value.author = "Said Ahmad"
 //     })
 //     return arr
@@ -289,13 +289,88 @@
 // 6-masala
 
 // function addMrToTheNames(arr) {
-//     forEach(function(value){
+//     arr.forEach(function(value){
 //         value.name = "Mr" + value.name;
 //     })
 //     return arr
 // }
 
 // 7-masala
+
+// function onlyElectronicCars(arr) {
+//     let res = arr.filter(function(value){
+//       return value.type === "electronic"
+//     })
+//     return res
+// }
+
+// 8-masala
+
+// function onlyNameAndEmail(arr) {
+//     arr.forEach(function(value) {
+//       console.log([value.name, value.email]);
+//     });
+//   }
+
+// 9-masala
+
+// function theMostHighPrice(arr) {
+//     high = arr[0]
+//     arr.forEach(function(value){
+//        if (high < value) {
+//         high = value
+//        }
+//     })
+//     return high
+// }
+
+// 10-masala
+
+// function Overallball(arr) {
+//     let sum = 0;
+//     arr.forEach(function (value) {
+//         sum += value.ball;
+//     });
+//     let average = sum / arr.length; h
+//     arr.forEach(function (value) {
+//         value.ball = average;
+//     });
+
+//     return arr;
+// }
+
+// String metodiga oid masalalar
+
+// 1-masala
+
+// function changeElementsToLOwerCase (massive) {
+//     let res = massive.toLowercase()
+//     console.log(res);
+// }
+
+// 2-masala
+
+// function calculateTextLength (arr) {
+//     arr.forEach(function(value){
+//         if (typeof value == "string" ){
+//         }
+//     })
+//     return arr
+// }
+
+// 3-masala
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
